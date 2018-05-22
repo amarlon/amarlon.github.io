@@ -1,0 +1,125 @@
+html{font-size: 82%;}
+a{ cursor: pointer }
+body{
+     font-family: sans-serif;
+     padding: 0;
+     margin: 0;
+     color: #444;
+     background: #fff;
+}
+.img_gepro_logo{margin-top: 10px}
+.gepro_bienvenu{font-size: 140%;
+font-weight: bold;}
+fieldset{
+	margin-top: 1em;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border: #aaa solid 1px;
+    padding: 1.5em;
+    background: #eee;
+    text-shadow: 1px 1px 2px #fff inset;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+fieldset legend{
+	font-size: 82%;
+	font-weight: bold;
+	color: #444;
+	padding: 5px 10px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+	-moz-box-shadow: 3px 3px 15px #bbb;
+	-webkit-box-shadow: 3px 3px 15px #bbb;
+	box-shadow: 3px 3px 15px #bbb;
+	max-width: 31%;
+    
+}
+select{
+	outline: none;
+	-moz-transition: all 0.2s;
+	moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #bbb;
+    color: #333;
+    padding: 3px;
+    background: white;
+    margin: 6px;
+
+}
+option:checked, option:hover {
+    color: white;
+    background: green;
+}
+fieldset.tblFooters{
+    margin-top: 0;
+margin-bottom: .5em;
+border-top: 0;
+text-align: right;
+float: none;
+clear: both;
+-webkit-border-radius: 0 0 4px 4px;
+-moz-border-radius: 0 0 4px 4px;
+border-radius: 0 0 4px 5px;
+}
+
+div.tools, .tblFooters {
+    font-weight: normal;
+    color: #000;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aac10f+0,299a0b+100 */
+background: rgb(170,193,15); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgb(170,193,15) 0%, rgb(41,154,11) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgb(170,193,15) 0%,rgb(41,154,11) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgb(170,193,15) 0%,rgb(41,154,11) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aac10f', endColorstr='#299a0b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+input{
+   margin: 0;
+font-family: inherit;
+font-size: inherit;
+line-height: inherit; 
+overflow: visible;
+}
+input[type="submit"], input[type="button"], button[type="submit"]:not(.mult_submit), input[type="reset"], input[name="submit_reset"], input.button {
+    margin: 6px 14px;
+    border: 1px solid #aaa;
+    padding: 3px 7px;
+    color: #111;
+    text-decoration: none;
+    background: #ddd;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    text-shadow: 0 1px 0 #fff;
+    background-image: url(./themes/svg_gradient.php?from=f8f8f8&to=d8d8d8);
+    background-size: 100% 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#d8d8d8));
+    background: -webkit-linear-gradient(top, #f8f8f8, #d8d8d8);
+    background: -moz-linear-gradient(top, #f8f8f8, #d8d8d8);
+    background: -ms-linear-gradient(top, #f8f8f8, #d8d8d8);
+    background: -o-linear-gradient(top, #f8f8f8, #d8d8d8);
+}
+input[type="submit"], input[type="button"], button[type="submit"]:not(.mult_submit) {
+    font-weight: bold !important;
+}
+
+.tblFooters-text-politique{
+    display: none;
+    text-align: left;
+}
+.chg{
+    background-color: #efefef;
+  
+    background-clip: padding-box;
+    
+    min-height: 28px;
+ 
+        line-height: 48px;
+   
+    color: #777;
+}
